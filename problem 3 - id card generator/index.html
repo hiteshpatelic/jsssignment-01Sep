@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ID Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h3>ID Card Generator</h3>
+    </div>
+
+    <div class="coniatiner">
+        <div class="studentInfoForm">
+            <h3>Enter Student Details</h3>
+            <form onsubmit="generatId(event)">
+                <div class="input">
+                    <label for="name">Enter Name:</label>
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="name">
+                </div>
+                <div class="input">
+                    <label for="collegeName">Enter College Name:</label>
+                    <i class="fas fa-university"></i>
+                    <input type="text" name="collegeName">
+                </div>
+                <div class="input">
+                    <label for="location">Enter Location:</label>
+                    <i class="fas fa-address-book"></i>
+                    <input type="text" name="location">
+                </div>
+                <div class="input">
+                    <label for="studentProfilePicture">Enter student's picture:</label>
+                    <input type="file" name="studentProfilePicture" id="">
+                </div>
+                <div class="btn">
+                    <button type="submit" id="generate">Generate Card</button>
+                </div>
+            </form>
+        </div>
+        <div class="idCardView block" >
+            <h2>Generated ID Card</h2>
+            <div class="card">
+                <div class="profilePicture">
+
+                </div>
+                <div class="studentInfo">
+                    <!-- User info here after genreate-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

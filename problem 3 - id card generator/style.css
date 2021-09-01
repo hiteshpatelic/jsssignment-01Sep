@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    display: grid;
+    width: 100vw;    
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: #000080;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+.header h3{
+    margin: 10px;
+}
+.coniatiner{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coniatiner .input{
+    margin:  10px 0;
+}
+
+.coniatiner .input input, .coniatiner .btn button {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.coniatiner .btn button{
+    width: 90%;
+    background-color: #000080;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+}
+.coniatiner .input input:focus {
+    outline: none;
+}
+.idCardView{
+    border:1px solid #000080;
+    background-color: #000080;
+    border-radius: 10px;
+    color: white;
+}
+.idCardView h2{
+    margin: 10px 15px;
+}
+.idCardView .card{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.idCardView .card .profilePicture{
+    width:200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.idCardView .card .profilePicture img{
+    width: 150px;
+    height: 150px;
+}
+.idCardView .card .studentInfo{
+    padding: 15px;
+}
+.block{
+    display: none;
+}
